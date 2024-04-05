@@ -8,7 +8,8 @@ Given that you have [Anki](https://apps.ankiweb.net/) installed and running on
 your desktop, and the [AnkiConnect](https://ankiweb.net/shared/info/2055492159)
 addon, this script feeds Mandarin words into your anki deck. 
 
-Replace the `text_to_feed` variable in the script, and run the script.
+Replace the `text_to_feed` and `deck_name` variables in the script, and run the
+script.
 
 ```
 python3 upload_to_anki.py
@@ -20,7 +21,7 @@ for whole sentences, and can fail to find them in the dictionary). This works
 out for me for the  time being because I usually note down interesting words in
 a list, on Google Keep.
 
-So the expected format for `text_to_feed` might be something like:
+The expected format for `text_to_feed` might be something like:
 
 ```
 text_to_feed = """
